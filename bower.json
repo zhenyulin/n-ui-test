@@ -1,0 +1,6 @@
+{
+  "name": "n-ui-test",
+  "dependencies": {
+    "n-ui": "^8.1.3"
+  }
+}

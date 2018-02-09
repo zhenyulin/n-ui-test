@@ -5,9 +5,14 @@ node_modules/@financial-times/n-gage/index.mk:
 
 -include node_modules/@financial-times/n-gage/index.mk
 
-# remove verify lintspaces as it is covered by prettier
-verify: ci-n-ui-check _verify_eslint _verify_stylelint _verify_pa11y_testable
-	@$(DONE)
+build:
+	nui build
 
-unit-test:
-	@yarn test
+build-production:
+	nui build --production
+
+watch:
+	nui watch
+
+run:
+	node server/app.js

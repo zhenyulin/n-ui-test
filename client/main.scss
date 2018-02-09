@@ -1,0 +1,7 @@
+@import 'n-ui/main';
+
+@include nUiStylesheetStart('head');
+body {
+  padding: 0;
+}
+@include nUiStylesheetEnd('head');
