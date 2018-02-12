@@ -22,7 +22,8 @@ app.get('/__gtg', function (req, res){
 app.get('/', (req, res) => {
 	res.render('test', {
 		someArray: [1,2],
-		someValue: 1
+		someValue: 1,
+		layout: 'wrapper'
 	});
 });
 
