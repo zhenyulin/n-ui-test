@@ -15,4 +15,7 @@ watch:
 	nui watch
 
 run:
-	node server/app.js
+	babel-node server/app.js
+
+a11y:
+	echo 'done'
